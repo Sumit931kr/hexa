@@ -6,7 +6,8 @@ const Home = () => {
 
     const [table, setTable] = useState([])
 
-    const port = 'http://localhost:5000' 
+    // const port = 'http://localhost:5000' 
+    const port = 'https://hexa-two.vercel.app/' 
 
     const getresult = async () => {
         const response = await fetch(port, {
